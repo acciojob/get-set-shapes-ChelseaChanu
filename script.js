@@ -19,6 +19,10 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
+	constructor(width){
+		super(width,width);
+	}
+	
 	getPerimeter(){
 		console.log( 4*this.width);
 	}
